@@ -1,0 +1,122 @@
+body {
+  background: #fff url(../img/bg.jpg) 50% no-repeat;
+  background-size: cover;
+  font-family: 'Calibri', Arial, sans-serif;
+  font-size: 24px;
+  color: #616161;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #616161; }
+  a:hover {
+    color: #fb973b; }
+
+span {
+  color: #fb973b; }
+
+input, textarea, button {
+  outline: none; }
+
+.title {
+  position: relative;
+  display: inline;
+  color: #141419;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1.2; }
+  .title:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #fb973b;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: -1; }
+
+/* Header */
+.ba-header {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 116px;
+  z-index: 1; }
+
+.menu__item {
+  list-style-type: none;
+  font-size: 18px; }
+
+.number {
+  font-weight: bold; }
+
+/* Hero */
+.hero {
+  position: relative;
+  padding-top: 130px;
+  margin-bottom: 200px;
+  height: 100vh; }
+  .hero p {
+    line-height: 1.5;
+    margin-bottom: 39px; }
+  .hero input[type="text"] {
+    width: 196px;
+    height: 57px;
+    padding-left: 32px;
+    background-color: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+    margin-right: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .hero__btn button {
+    width: 196px;
+    height: 57px;
+    background-color: #fb973b;
+    color: #fff;
+    border-radius: 0;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 600; }
+  .hero__btn:hover {
+    opacity: .8; }
+  .hero__img-cow {
+    width: 168%; }
+  .hero__img-lamps {
+    position: absolute;
+    width: 180%;
+    top: 0;
+    left: 0;
+    margin-left: -100px; }
+
+/* About Us */
+.about-us {
+  padding-bottom: 150px; }
+  .about-us__text {
+    margin-bottom: 42px; }
+  .about-us img {
+    width: 395px;
+    height: auto; }
+  .about-us__circle {
+    display: table;
+    width: 21px;
+    color: #fb973b;
+    border: 1px solid #fb973b;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 21px; }
+  .about-us__line {
+    width: 1px;
+    height: 20px;
+    background-color: #fb973b; }
+  .about-us__info {
+    font-size: 18px;
+    line-height: 1.39; }
+
+/* Our Partners */
+.our-partners {
+  padding-bottom: 77px; }
+  .our-partners__group {
+    height: 393px; }

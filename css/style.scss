@@ -1,0 +1,158 @@
+$textColor: #616161;
+$titleColor: #141419;
+$mainColor: #fb973b;
+
+$fontSiseBig: 24px;
+$fontSiseSmall: 18px;
+
+body {
+	background: #fff url(../img/bg.jpg) 50% no-repeat;
+	background-size: cover;
+	font-family: 'Calibri', Arial, sans-serif;
+	font-size: $fontSiseBig;
+	color: $textColor;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	font-size: $fontSiseSmall;
+	color: $textColor;
+	&:hover {
+		color: $mainColor;
+	}
+}
+
+span {
+	color: $mainColor;
+}
+
+input, textarea, button {
+    outline:none;
+}
+                
+.title {
+	position: relative;
+	display: inline;
+	color: $titleColor;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 1.2;
+	&:after {
+		content: " ";
+		display: block;
+		width: 100%;
+		height: 10px;
+		background-color: $mainColor;
+		position: absolute;
+		top: 45px;
+		left: 0;
+		z-index: -1;
+	}
+}
+
+
+/* Header */
+.ba-header {
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+	height: 116px;
+	z-index: 1;
+}
+
+.menu {
+	&__item {
+		list-style-type: none;	
+		font-size: $fontSiseSmall;
+	}
+}
+
+.number {
+	font-weight: bold; 
+}
+
+/* Hero */
+.hero {
+	position: relative;
+	padding-top: 130px;
+	margin-bottom: 200px;
+	height: 100vh;
+	p {
+		line-height: 1.5;
+		margin-bottom: 39px;
+	}
+	input[type="text"] {
+		width: 196px;
+		height: 57px;
+		padding-left: 32px;
+		background-color: #f8f8f8;
+		border: 1px solid #e1e1e1;
+		border-radius: 0;
+		margin-right: 0;
+		box-sizing: border-box;
+	}
+	&__btn {
+		button {
+			width: 196px;
+			height: 57px;
+			background-color: $mainColor;
+			color: #fff;
+			border-radius: 0;
+			margin-left: 0;
+			font-size: 18px;
+			font-weight: 600;
+		}
+		&:hover {
+			opacity: .8;
+		}	
+	}
+	&__img-cow {
+		width: 168%;
+	}
+	&__img-lamps {
+		position: absolute;
+		width: 180%;
+		top: 0;
+		left: 0;
+		margin-left: -100px;
+	}
+}
+
+/* About Us */
+.about-us {
+	padding-bottom: 150px;
+	&__text {
+		margin-bottom: 42px;
+	}
+	img {
+		width: 395px;
+		height: auto;
+	}
+	&__circle {
+		display: table;
+		width: 21px;
+		color: $mainColor;
+		border: 1px solid $mainColor;
+		border-radius: 50%;
+		font-size: $fontSiseSmall;
+		line-height: 21px;
+	}
+	&__line {
+		width: 1px;
+		height: 20px;
+		background-color: $mainColor;
+	}
+	&__info {
+		font-size: $fontSiseSmall;
+		line-height: 1.39;
+	}
+}
+
+/* Our Partners */
+.our-partners {
+	padding-bottom: 77px;
+	&__group {
+		height: 393px;
+	}
+}
